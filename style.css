@@ -1,0 +1,228 @@
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+body,
+.header,
+.nav__list,
+.main,
+.hero,
+.hero__content,
+.hero__image,
+.info__content,
+.action,
+.action__wrapper,
+.footer {
+  display: flex;
+}
+
+body,
+.main,
+.hero__content {
+  flex-direction: column;
+}
+
+.header,
+.hero,
+.action__wrapper {
+  justify-content: space-between;
+}
+
+.header,
+.hero,
+.footer {
+  background: #1f2937;
+}
+
+.header,
+.hero__image,
+.action,
+.footer {
+  align-items: center;
+}
+
+.header,
+.footer {
+  padding: 24px 256px;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.logo,
+.hero__title,
+.button,
+.image__placeholder,
+.action__title,
+.action__text {
+  color: #f9faf8;
+}
+
+.logo,
+.hero__title,
+.button,
+.info__title,
+.quote__signature {
+  font-weight: 600;
+}
+
+.nav__list {
+  list-style: none;
+  gap: 24px;
+}
+
+.nav__link {
+  text-decoration: none;
+}
+
+.nav__link,
+.hero__text,
+.button,
+.image__placeholder,
+.card__caption,
+.quote__signature,
+.action__text,
+.footer__text {
+  font-size: 18px;
+}
+
+.nav__link,
+.hero__text,
+.image__placeholder,
+.footer__text {
+  color: #e5e7eb;
+}
+
+.main,
+.hero,
+.hero__content,
+.hero__image,
+.info,
+.quote,
+.action {
+  flex: 1;
+}
+
+.hero {
+  padding: 64px 256px;
+}
+
+.hero__content {
+  gap: 16px;
+}
+
+.hero__content,
+.action__button {
+  align-self: center;
+}
+
+.hero__title {
+  font-size: 48px;
+}
+
+.text {
+  display: block;
+}
+
+.hero__text {
+  padding-right: 48px;
+}
+
+.button {
+  padding: 8px 24px;
+  border: none;
+}
+
+.button,
+.action__wrapper {
+  border-radius: 8px;
+  background: #3882f6;
+}
+
+.hero__button {
+  align-self: start;
+}
+
+.hero__image {
+  background: #6e7f80;
+}
+
+.hero__image,
+.info__content,
+.footer {
+  justify-content: center;
+}
+
+.info {
+  padding: 0 256px 72px 256px;
+}
+
+.info__title {
+  padding: 24px 0;
+}
+
+.info__title,
+.card__caption,
+.quote__content {
+  text-align: center;
+}
+
+.info__title,
+.quote__content {
+  color: #1f2937;
+  font-size: 36px;
+}
+
+.info__content {
+  gap: 48px;
+}
+
+.card,
+.card__image {
+  width: 178px;
+}
+
+.card__image {
+  height: 178px;
+  border: 4px solid #3882f6;
+  border-radius: 16px;
+}
+
+.quote {
+  padding: 128px 256px;
+  background: #e5e7eb;
+}
+
+.quote__content {
+  font-weight: 200;
+  font-style: italic;
+}
+
+.quote__signature {
+  text-align: end;
+}
+
+.action {
+  padding: 96px 256px;
+}
+
+.action__wrapper {
+  width: 100%;
+  padding: 48px 128px;
+}
+
+.action__button {
+  border: 2px solid #f9faf8;
+}
